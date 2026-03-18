@@ -11,7 +11,7 @@ pipeline {
         CONTAINER_NAME  = 'skala-springboot-app'
 
         APP_PORT       = '8080'
-        HOST_PORT      = '8080'
+        HOST_PORT      = '8081'
     }
 
     stages {
