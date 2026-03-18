@@ -8,6 +8,11 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello Jenkins Docker!";
+        return "자동 배포 성공! 🚀 Jenkins + Docker + Webhook";
+    }
+
+    @GetMapping("/version")
+    public String version() {
+        return "version 1.0";
     }
 }
